@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    image: mavrick1/demo-python-app:latest
+    container_name: demo-python-app
+    ports:
+      - "8080:80"  # Maps container port 80 to host port 8080
+    restart: always  # Automatically restart the container if it fails

@@ -17,7 +17,8 @@ The docker image is auto built at [https://registry.hub.docker.com/u/yeasy/simpl
 
 
 ## In Dockerfile
-```sh
+```sh;
+
 FROM yeasy/simple-web:latest
 ```
 
